@@ -12,7 +12,7 @@ const RightBar = () => {
     <div className="flex gap-2">
       {token ? (
         <>
-          <strong className="text-purple-700  md:text-xl capitalize">
+          <strong className="md:text-lg text-white capitalize">
             {payload?.username}
           </strong>
           <Logout />
