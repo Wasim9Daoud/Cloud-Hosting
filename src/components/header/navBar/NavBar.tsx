@@ -68,3 +68,4 @@ const NavBar = ({ isAdmin }: navBarPageProps) => {
 };
 
 export default NavBar;
+
