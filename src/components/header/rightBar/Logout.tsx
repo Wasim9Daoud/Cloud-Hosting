@@ -14,7 +14,7 @@ const Logout = () => {
     <div>
       <button
         onClick={logout}
-        className="text-white font-bold md:text-lg ml-2"
+        className="text-purple-300 hover:text-purple-800 duration-1000 font-bold md:text-lg ml-2"
       >
         Logout
       </button>
