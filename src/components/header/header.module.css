@@ -21,7 +21,6 @@
     align-items: center;
     font-weight: bold;
     font-size: 24px;
-    /* color: rgb(176, 15, 176); */
     color: rgb(139, 4, 139);
 }
 
@@ -36,7 +35,7 @@
     font-size: 20px;
     font-weight: 600;
     margin: 0 12px;
-    color: white;
+    color: #d8b4fe;
     transition: all 0.5s ease-in;
 }
 .navLink:hover{
