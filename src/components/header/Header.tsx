@@ -9,7 +9,7 @@ const Header = () => {
   const token = cookies().get('jwtToken')?.value || "";
   const payload = verifyTokenForPages( token );
   return (
-    <div className="h-[65px] flex sticky top-0 items-center justify-between py-[0] px-[40px] border-b-[2px] border-purple-300 bg-white transition-all duration-1000" >
+    <div className="h-[65px] flex sticky top-0 items-center justify-between py-[0] px-[40px] bg-white transition-all duration-1000" >
       <Logo />
       <NavBar isAdmin={payload?.isadmin || false}/>
       <RightBar />
