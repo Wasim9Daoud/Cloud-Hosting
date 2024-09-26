@@ -71,11 +71,10 @@
         left: -50px;
         top: 100%;
         width: 100%;
-        background-color: rgb(227, 225, 225);
+        background-color: rgb(250 245 255);
         display: flex;
         justify-content: flex-start;
         clip-path: polygon(0 0, 100% 0,100% 0);
-        /* transition: all 2s ease-in; */
     }
 
     .menuLinks{
@@ -83,7 +82,6 @@
         flex-direction: column;
         gap: 20px;
         margin: 10px 20px;
-        /* transition: all 2s ease-in; */
     }
     .logo{
         display: none;
